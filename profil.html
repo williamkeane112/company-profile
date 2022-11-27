@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BCA Digital |Profil</title>
+    <link rel="shortcut icon" href="img2/download.jpg">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <!-- nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-[#30ced0]">
+      <div class="container-fluid float-right">
+        <a class="navbar-brand" href="#"><img src="img/logobca.svg" class="w-36" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle hover:border hover:border-teal-500" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="text-lg  text-white font-semibold font-sans">Profil</span>
+              </a>
+              <ul class="dropdown-menu bg-teal-500">
+                <li><a class="dropdown-item text-lg  text-white font-semibold font-sans hover:border hover:border-teal-500" href="#about">About</a></li>
+                <li><a class="dropdown-item text-lg  text-white font-semibold font-sans hover:border hover:border-teal-500" href="#struk">Struktur</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item text-lg  text-white font-semibold font-sans hover:border hover:border-teal-500" href="#sejarah">Sejarah</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-lg  text-white font-semibold font-sans hover:border hover:border-teal-500" href="tatakelola.html">Tata Kelola</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-lg  font-semibold font-sans hover:border hover:border-teal-500" href="media.html">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-lg font-semibold font-sans hover:border hover:border-teal-500" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 hover:ring-black" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success border-black" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end -->
+    <!-- home -->
+    <div class="max-h-\[90vh\]] w-full bg-[#30ced0]">
+      <div class="text-white">
+        <div class="flex flex-wrap container">
+          <div class="font-semibold md:mt-36 text-5xl ml-10 ">
+            Tentang <br class="sm:text-lg" />
+            <span class="text-3xl">BCA DIGITAL</span>
+            <br />
+            <p class="text-xl mt-4">
+              Kami adalah bank yang lahir seutuhnya <br />
+              dalam dunia digital
+            </p>
+            <button class="w-20 bg-teal-500 rounded-xl text-xl"><a href="#about">About</a></button>
+          </div>
+          <div>
+            <img src="img/bca.png" class="mt-[39px] md:ml-48" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- ABOUT -->
+    <div class="max-w-full mt-20 justify-center items-center mx-10">
+      <p class="text-2xl text-slate-500 mb-5" id="about">
+        Kami hadir untuk kamu, para digital savvy yang menginginkan cara baru dalam urusan perbankan. Lewat platform yang akan terus dikembangkan sesuai kemajuan teknologi, BCA Digital akan selalu <br />
+        berusaha untuk bisa menjadi <span class="text-black font-bold"> jawaban atas kebutuhan finansial kamu. <span id="dots">...</span></span>
+      </p>
+      <div class="hidden" id="read-more">
+        <p class="text-2xl text-slate-500 mb-3">Layaknya teman, BCA Digital ingin tumbuh bersama dengan para nasabah. Kami ada untuk menyebarkan good vibes dan memberikan semangat dalam memulai langkahmu mewujudkan mimpi jadi kenyataan.</p>
+        <p class="text-2xl text-slate-500 mb-3">
+          Katanya tak kenal maka tak sayang. Biar lebih akrab, berikut sekilas sejarah tentang kami. Sebelumnya PT Bank Digital BCA (BCA Digital) itu adalah PT Bank Royal Indonesia (Royal Bank) yang diakuisisi oleh PT Bank Central Asia Tbk
+          (BCA) pada akhir tahun 2019. Dengan identitas baru ini, BCA Digital berkomitmen untuk terus meracik ide baru untuk inovasi layanan dan produk perbankan yang selalu bikin kamu berkata, “untung ada BCA Digital!”
+        </p>
+
+        <p class="text-2xl text-slate-500 mb-3">Dan tanpa melupakan hal terpenting, BCA Digital akan selalu meninggalkan dampak positif dalam setiap jejak langkah kami demi menciptakan dunia yang sustain dan lebih baik.</p>
+
+        <p class="text-2xl text-slate-500">
+          Sesuai Surat Keputusan Deputi Komisioner Pengawas Perbankan I Otoritas Jasa Keuangan Nomor KEP-92/PB.1/2020 tertanggal 19 Mei 2020 Tentang Penetapan Penggunaan Izin Usaha Atas Nama PT Bank Royal Indonesia menjadi Izin Usaha Atas
+          Nama PT Bank Digital BCA
+        </p>
+      </div>
+
+      <button onclick="read()" class="mt-2 text-teal-500 hover:underline" id="btn">Read more</button>
+    </div>
+    <!-- end -->
+    <!-- visi misi -->
+
+    <div class="max-h-[150vh] bg-[#30ced0] mt-10 text-white mx-10">
+      <div class="flex flex-wrap text-center">
+        <div class="text-center mt-10">
+          <h1 class="text-2xl">VISI</h1>
+          <p class="">Menjadi bank digital pilihan utama masyarakat</p>
+          <div class="text-center mt-10">
+            <h1 class="text-2xl">MISI</h1>
+            <p class="text-center">
+              • Memahami beragam kebutuhan nasabah dan memberikan <br />
+              layanan finansial yang tepat demi tercapainya kepuasan optimal bagi nasabah, <br />
+              dengan memanfaatkan teknologi tepat guna
+              <br />
+              • Memberikan nilai tambah bagi para pemangku kepentingan
+            </p>
+          </div>
+        </div>
+        <div class="mt-10 mx-4">
+          <img src="img/visimisi.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- strukture -->
+    <div class="max-h-[150vh] w-full mt-20 bg-[#30ced0]" id="struk">
+      <div class="text-center text-white">
+        <div class="pt-10">
+          <h1 class="text-4xl">Struktur Organisasi</h1>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/struktur1.png" class="d-block w-[744px] mx-auto" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/struktur2.png" class="d-block w-[744px] mx-auto" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/struktur3.png" class="d-block w-[744px] mx-auto" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/struktur4.png" class="d-block w-[744px] mx-auto" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- sejarah -->
+    <div class="max-h-[150vh] max-w-full mt-32" id="sejarah">
+      <div class="text-white">
+        <h1 class="text-teal-400 text-center font-semibold text-4xl">SEJARAH</h1>
+        <div>
+          <img src="img/sejarah img.svg" class="md:w-[1240px] w-0 " id="img1" alt="" />
+        </div>
+        <div>
+          <img src="img/sm-sejarah.svg" class="md:hidden" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- footer -->
+    <div class="md:h-[40vh] max-h-[150vh] w-full container md:mt-36 mt-20 bg-teal-500">
+      <div class="mx-20">
+        <div class="flex flex-wrap justify-between">
+          <img src="img/logobca.svg" class="py-10" alt="" />
+          <div class="text-white text-xl py-10">
+            <ul class="md:flex">
+              <li class="md:mt-0 mt-3"><a href="#about">About</a></li>
+              <li class="md:mt-0 mt-3"><a href="#struk" class="md:ml-5">Struktur</a></li>
+              <li class="md:mt-0 mt-3"><a href="#sejarah" class="md:ml-5">Sejarah</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <img src="img/ojk.svg" class="md:-mt-10" alt="" />
+          <img src="img/lps.svg" class="md:ml-8 md:-mt-10" alt="" />
+
+          <p class="md:text-[10px] text-md ml-3 text-teal-300 md:mt-0 mt-10">
+            BCA Digital terdaftar dan diawasi oleh Otoritas Jasa Keuangan. <br />
+            BCA Digital merupakan peserta penjaminan LPS.
+          </p>
+          <div class="flex md:ml-80 text-white mt-10 md-mt-0">
+            <img src="img2/instagram.svg" class="w-8 h-9 rounded-full flex justify-center items-center border border-teal-500 cursor-pointer" alt="" />
+            <img src="img2/facebook (1).svg" class="w-8 h-9 rounded-full flex justify-center items-center border border-teal-500 cursor-pointer md:ml-3 ml-3" alt="" />
+            <img src="img2/youtube.svg" class="w-8 h-9 rounded-full flex justify-center items-center border border-teal-500 cursor-pointer md:ml-3 ml-3" alt="" />
+            <img src="img2/linkedin.svg" class="w-8 h-9 rounded-full flex justify-center items-center border border-teal-500 cursor-pointer md:ml-3 ml-3" alt="" />
+            <img src="img2/twitter (1).svg" class="w-8 h-9 rounded-full flex justify-center items-center border border-teal-500 cursor-pointer md:ml-3 ml-3" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- js -->
+    <script>
+      function read() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("read-more");
+        var btnText = document.getElementById("btn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
