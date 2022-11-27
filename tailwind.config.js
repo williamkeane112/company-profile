@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['profil.html' ,'media.html' , 'kontak.html','tatakelola.html'],
+  content: ['./publik/**/*.{html,js}'],
  
   theme: {
     extend: {
